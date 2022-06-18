@@ -8,12 +8,29 @@
 
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<title>Hello Coursera.</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Ristorante con Fusion</title>
 </head>
 <body>
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top ">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a href="#" class="navbar-brand mr-auto">Ristorante Confusion</a>
+			<div class="collapse navbar-collapse" id="Navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="aboutus.html" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<header class="jumbotron">
 		<div class="container">
-			<div class="row">
+			<div class="row row-header">
 				<div class="col-12 col-sm-6">
 					<h1>Ristorante con Fusion</h1>
 					<p>We take inspiration from the World's best cuisines, and create a unique fusion experiance. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -26,7 +43,7 @@
 	</header>
 
 	<div class="container">
-		<div class="row">
+		<div class="row row-content align-items-center">
 			<div class="col-12 col-sm-4 order-sm-last col-md-3">
 				<h3>Our Lipsmacking Culinary Creations</h3>
 			</div>
@@ -36,7 +53,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row row-content align-items-center">
 			<div class="col-12 col-sm-4 col-md-3">
 				<h3>This Month's Promotion</h3>
 			</div>
@@ -46,7 +63,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row row-content align-items-center">
 			<div class="col-12 col-sm-4 order-sm-last col-md-3">
 				<h3>Meet our Culinaru Specialists</h3>
 			</div>
@@ -58,21 +75,21 @@
 		</div>
 	</div>
 
-	<footer>
+	<footer class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-4 offset-1 col-sm-2">
 					<h5>Links</h5>
-					<ul>
+					<ul class="list-unstyled">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="aboutus.html">About</a></li>
 						<li><a href="#">Menu</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-7 col-sm-5">
 					<h5>Our Address</h5>
-					<address>
+					<address class="address">
 						121, Clear Water Bay Road <br>
 						Clear Water Bay, Kowloon <br>
 						HONG KONG <br>
@@ -81,8 +98,8 @@
 						Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
 					</address>
 				</div>
-				<div  class="col-12 col-sm-4 ">
-					<div>
+				<div  class="col-12 col-sm-4 align-self-center">
+					<div class="text-center">
 						<a href="http://google.com">Google+</a>
 						<a href="http://facebook.com/profile.plc">Facebok</a>
 						<a href="http://linkedin.com/in/">LinkedIn</a>
@@ -92,9 +109,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row justify-content-center">
 				<div class="col-auto">
-					<p>C Copyright 2015 Ristorante Con Fusion</p>
+					<p>&copy; Copyright 2015 Ristorante Con Fusion</p>
 				</div>
 			</div>
 		</div>
